@@ -1,0 +1,145 @@
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body{
+    border: 2px solid black;
+    margin:20px ;
+  }
+   .nomeprofi{
+    display: flex;
+    flex-direction: row;
+   }
+
+    .nomeprofi h1{
+    align-items: center;
+    margin: 20px;
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    background-clip: content-box;
+    padding-top: 50px;
+    padding-left: 60px;
+   }
+
+   .nomeprofi h2{
+    background-color: lightgray;
+    background-clip: content-box;
+    padding-top: 60px;
+    padding-left: 320px;
+    margin: 30px;
+    align-items: center;
+    font-size: 30.5px;
+    display: flex;
+    flex-direction: column;
+   
+   }
+
+   .corpo{
+    display:flex;
+    flex-direction: row;
+    margin: 30px;
+   }
+
+   .info{
+    display:flex;
+    flex-direction: column;
+   }
+
+   .info .foto img{
+    border: 2px solid aquamarine;
+    margin-left: 25px;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+   }
+
+   .corpo h2{
+    border-bottom: 2px solid lightblue;
+    width: 18.5%;
+    margin-top: 30px;
+    font-size: 130%;
+    margin:20px;
+   }
+
+   .corpo .linguas h3{
+    color: rgb(58, 58, 58);
+    font-style: normal;
+    text-decoration: none;
+    margin: 15px;
+   }
+
+   .texto .Eperiencia h3{
+    border-bottom: 2px solid rgb(71, 121, 138);
+    width: 18.5%;
+   }
+   h4{
+    color: rgb(58, 58, 58);
+    font-style: normal;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 120%;
+   }
+
+   .info .contato h3{
+    color: rgb(58, 58, 58);
+    font-style: normal;
+    text-decoration: none;
+    margin: 20px;
+   }
+
+   .info .contato img{
+    height: 20px;
+    width: 20px;
+   }
+
+
+   .tetxo{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .corpo .texto .resumo .h2{
+    border-bottom: 2px solid lightblue;
+    width: 18.5%;
+    margin-top: 30px;
+    font-size: 130%;
+   }
+
+   .texto .resumo .h3{
+    color: rgb(58, 58, 58);
+    font-style: normal;
+    text-decoration: none;
+    margin: 15px;
+   }
+
+   .corpo{
+    border-bottom: 7px solid aqua;
+   }
+   
+
+  
